@@ -30,6 +30,7 @@ export const Login = (props) => {
     else{
       // alert('invalid credentails');
       props.showAlert("Invalid credentials","danger");
+      navigate('/');
     }
 
   }

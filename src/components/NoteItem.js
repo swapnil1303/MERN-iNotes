@@ -9,7 +9,7 @@ const NoteItem = (props) => {
         <>
             <div className='col-md-4'>
                 <div className="card my-3" style={{width:"16rem"}}>
-                    <div className="card-body">
+                    <div className="card-body" style={{border:'2px solid black', borderRadius:'10px'}}>
                         <div className="d-flex align-items-center">
                             <h5 className="card-title">{note.title}</h5>
                             <i className="fa-solid fa-trash-can mx-3" onClick={()=>deleteNote(note._id,showAlert)}></i>
